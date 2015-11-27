@@ -45,10 +45,11 @@ header {
 }
 
 #slogan {
-	background-color: #E6580D;
 	color: #FCFCFC;
 	padding-top: 3.5em;
 	padding-bottom: 6em;
+	background: url('../images/rocket.png') no-repeat center bottom;
+	background-color: #E6580D;
 }
 
 /*#slogan [*/
@@ -101,6 +102,8 @@ header {
 	@slack-logo-width = 140px
 	@slack-logo-height = 65px
 	@social-logo-size = 30px
+	@rocket-image-width = 319px
+	@rocket-image-height = 412px
 */
 
 #oussama_amar, #stephane_udol, #ricky_ngadam, #paul_louis_bautes {
@@ -171,6 +174,10 @@ header {
 		background-size: 30px auto;
 		background-image: url('../images/slack-icon@2x.png');
 	}
+	#slogan {
+		background-size: 319px 412px;
+		background-image: url('../images/rocket@2x.png');
+	}
 }
 
 .circular {
@@ -218,4 +225,4 @@ header {
 	margin-bottom: @form-margin-bottom;
 }
 
-/* Variables:people-image-radius-size{3737:3743,3769:3775,3798:3804}.title-very-dark-orange-color{1157:1164}.slack-logo-width{2514:2519,3393:3398}.very-large-padding{1262:1265,1728:1731,4070:4073}.social-logo-size{2615:2619,2630:2634,2714:2718,2729:2733,3501:3505,3607:3611}.orange-color{1003:1010,1198:1205}.medium-padding{1026:1029}.large-padding{1238:1243,1341:1346,1412:1417,1495:1500,1704:1709,4003:4008}.slack-logo-height{2530:2534,3399:3403}.very-small-padding{1304:1309}.title-dark-orange-color{1110:1117}.white-color{1215:1222}.small-padding{1593:1596,3907:3910}.people-image-size{2040:2044,2055:2059,2945:2949,3700:3704,3715:3719}.light-black-color{3933:3941}.main-title-font{1085:1100} */
+/* Variables:people-image-radius-size{3960:3966,3992:3998,4021:4027}.title-very-dark-orange-color{1157:1164}.slack-logo-width{2639:2644,3518:3523}.very-large-padding{1234:1237,1794:1797,4293:4296}.social-logo-size{2740:2744,2755:2759,2839:2843,2854:2858,3626:3630,3732:3736}.orange-color{1003:1010,1324:1331}.rocket-image-height{3838:3843}.medium-padding{1026:1029}.large-padding{1210:1215,1407:1412,1478:1483,1561:1566,1770:1775,4226:4231}.slack-logo-height{2655:2659,3524:3528}.rocket-image-width{3832:3837}.very-small-padding{1370:1375}.title-dark-orange-color{1110:1117}.white-color{1187:1194}.small-padding{1659:1662,4130:4133}.people-image-size{2165:2169,2180:2184,3070:3074,3923:3927,3938:3942}.light-black-color{4156:4164}.main-title-font{1085:1100} */
