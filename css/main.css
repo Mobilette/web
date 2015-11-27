@@ -7,7 +7,7 @@
 **
 
 	@black-color = #1F1F1F
-	@light-black-color = #8c8c8c;
+	@light-black-color = #8c8c8c
 	@white-color = #FCFCFC
 	@orange-color = #E6580D
 	@light-orange-color = lighten(@orange-color, 100%)
@@ -200,7 +200,7 @@ header {
 		margin-top: 1em;
 	}
 	#testimonial .name {
-		color: #8c8c8c;;
+		color: #8c8c8c;
 	}
 /*]*/
 
@@ -213,16 +213,4 @@ header {
 	}
 /*]*/
 
-
-/*
-**
-** JQuery form validator style
-**
-*/
-
-.form-error {
-	display: block;
-	margin-bottom: @form-margin-bottom;
-}
-
-/* Variables:people-image-radius-size{3960:3966,3992:3998,4021:4027}.title-very-dark-orange-color{1157:1164}.slack-logo-width{2639:2644,3518:3523}.very-large-padding{1234:1237,1794:1797,4293:4296}.social-logo-size{2740:2744,2755:2759,2839:2843,2854:2858,3626:3630,3732:3736}.orange-color{1003:1010,1324:1331}.rocket-image-height{3838:3843}.medium-padding{1026:1029}.large-padding{1210:1215,1407:1412,1478:1483,1561:1566,1770:1775,4226:4231}.slack-logo-height{2655:2659,3524:3528}.rocket-image-width{3832:3837}.very-small-padding{1370:1375}.title-dark-orange-color{1110:1117}.white-color{1187:1194}.small-padding{1659:1662,4130:4133}.people-image-size{2165:2169,2180:2184,3070:3074,3923:3927,3938:3942}.light-black-color{4156:4164}.main-title-font{1085:1100} */
+/* Variables:people-image-radius-size{3959:3965,3991:3997,4020:4026}.title-very-dark-orange-color{1156:1163}.slack-logo-width{2638:2643,3517:3522}.very-large-padding{1233:1236,1793:1796,4291:4294}.social-logo-size{2739:2743,2754:2758,2838:2842,2853:2857,3625:3629,3731:3735}.orange-color{1002:1009,1323:1330}.rocket-image-height{3837:3842}.medium-padding{1025:1028}.large-padding{1209:1214,1406:1411,1477:1482,1560:1565,1769:1774,4224:4229}.slack-logo-height{2654:2658,3523:3527}.rocket-image-width{3831:3836}.very-small-padding{1369:1374}.title-dark-orange-color{1109:1116}.white-color{1186:1193}.small-padding{1658:1661,4129:4132}.people-image-size{2164:2168,2179:2183,3069:3073,3922:3926,3937:3941}.light-black-color{4155:4162}.main-title-font{1084:1099} */
