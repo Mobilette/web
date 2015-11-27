@@ -1,0 +1,221 @@
+/*
+**
+** Variables use in this css file.
+**
+** note You should use Sublime Text editor.
+** see https://packagecontrol.io/packages/CSS%20Less(ish)
+**
+
+	@black-color = #1F1F1F
+	@light-black-color = #8c8c8c;
+	@white-color = #FCFCFC
+	@orange-color = #E6580D
+	@light-orange-color = lighten(@orange-color, 100%)
+	@dark-orange-color = darken(@orange-color, 45%)
+	@title-dark-orange-color = darken(@orange-color, 30%)
+	@title-very-dark-orange-color = darken(@orange-color, 65%)
+	@main-font = AUdimat-Mobilette-Regular
+	@main-title-font = Input-Mobilette
+	@title-font = AUdimat-Mobilette-Bold
+	@very-small-padding = 0.4em
+	@small-padding = 1em
+	@medium-padding = 2em
+	@large-padding = 3.5em
+	@very-large-padding = 6em
+	@padding-section-top = @large-padding + 2
+	@padding-section-bottom = @padding-section-top
+	@padding-first-section-top = @padding-section-top + 2
+	@margin-section-container-top = @medium-padding
+	@margin-section-container-bottom = @margin-section-container-top 
+*/
+
+header {
+	background-color: #E6580D;
+	padding-top: 2em;
+	padding-left: 5.5555%;
+}
+
+#mobilette {
+	font-family: Input-Mobilette;
+	color: #a13d09;
+}
+
+#mobilette::first-letter {
+	color: #501e04;
+}
+
+#slogan {
+	background-color: #E6580D;
+	color: #FCFCFC;
+	padding-top: 3.5em;
+	padding-bottom: 6em;
+}
+
+/*#slogan [*/
+	#slogan h1 {
+		padding-bottom: 0.4em;
+	}
+/*]*/
+
+#vision {
+	padding-top: 3.5em;
+}
+
+/*#vision [*/
+	#vision p {
+		text-align: justify;
+	}
+	#vision .quote {
+		margin: 3.5em 0;
+		text-align: center;
+	}
+/*]*/
+
+#program .section-container {
+	margin-bottom: 3.5em;
+}
+#program .section-container:last-of-type {
+	margin-bottom: 0;
+}
+
+#program h3 {
+	padding: 1em 0;
+}
+#program .section-container p {
+	text-align: justify;
+}
+
+/*#quote [*/
+	#quote .section-container {
+		margin-top: 3.5em;
+		margin-bottom: 6em;
+	}
+/*]*/
+
+/*
+**
+** Define image url for the people in the index page.
+**
+	@people-image-size = 70px
+	@people-image-radius-size = @people-image-size / 2
+	@slack-logo-width = 140px
+	@slack-logo-height = 65px
+	@social-logo-size = 30px
+*/
+
+#oussama_amar, #stephane_udol, #ricky_ngadam, #paul_louis_bautes {
+	width: 70px;
+	height: 70px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#oussama_amar {
+	background-image: url('../images/oussama-amar.jpg');
+}
+#stephane_udol {
+	background-image: url('../images/stephane-udol.jpg');
+}
+#ricky_ngadam {
+	background-image: url('../images/ricky-ngadam.jpg');
+}
+#paul_louis_bautes {
+	background-image: url('../images/paul-louis-bautes.jpg');
+}
+#mouhamed_i {
+	background-image: url('../images/mouhamed-i.jpg');
+}
+#slack_logo {
+	width: 140px;
+	height: 65px;
+	background-image: url('../images/slack_black.png');
+}
+#twitter_logo {
+	width: 30px;
+	height: 30px;
+	background-image: url('../images/twitter-icon.png');
+}
+#slack_icon {
+	width: 30px;
+	height: 30px;
+	background-image: url('../images/slack-icon.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+	#oussama_amar, #stephane_udol, #ricky_ngadam, #paul_louis_bautes, #mouhamed_i {
+		background-size: 70px auto;
+	}
+	 #oussama_amar {
+		background-image: url('../images/oussama-amar@2x.jpg');
+	}
+	#stephane_udol {
+		background-image: url('../images/stephane-udol@2x.jpg');
+	}
+	#ricky_ngadam {
+		background-image: url('../images/ricky-ngadam@2x.jpg') ;
+	}
+	#paul_louis_bautes {
+		background-image: url('../images/paul-louis-bautes@2x.jpg');
+	}
+	#mouhamed_i {
+		background-image: url('../images/mouhamed-i@2x.jpg');
+	}
+	#slack_logo {
+		background-size: 140px 65px;
+		background-image: url('../images/slack_black@2x.png');
+	}
+	#twitter_logo {
+		background-size: 30px auto;
+		background-image: url('../images/twitter-icon@2x.png');
+	}
+	#slack_icon {
+		background-size: 30px auto;
+		background-image: url('../images/slack-icon@2x.png');
+	}
+}
+
+.circular {
+	width: 70px;
+	height: 70px;
+	border-radius: 35.0px;
+	-webkit-border-radius: 35.0px;
+	-moz-border-radius: 35.0px;
+}
+
+/*
+**
+** Style testimonial section.
+**
+*/
+
+/*#testimonial [*/
+	#testimonial p, #testimonial q {
+		display: block;
+		margin-top: 1em;
+	}
+	#testimonial .name {
+		color: #8c8c8c;;
+	}
+/*]*/
+
+/*#testimonial [*/
+	#testimonial .section-container {
+		margin-bottom: 3.5em;
+	}
+	#testimonial > div.section-container:last-of-type {
+		margin-bottom: 6em;
+	}
+/*]*/
+
+
+/*
+**
+** JQuery form validator style
+**
+*/
+
+.form-error {
+	display: block;
+	margin-bottom: @form-margin-bottom;
+}
+
+/* Variables:people-image-radius-size{3737:3743,3769:3775,3798:3804}.title-very-dark-orange-color{1157:1164}.slack-logo-width{2514:2519,3393:3398}.very-large-padding{1262:1265,1728:1731,4070:4073}.social-logo-size{2615:2619,2630:2634,2714:2718,2729:2733,3501:3505,3607:3611}.orange-color{1003:1010,1198:1205}.medium-padding{1026:1029}.large-padding{1238:1243,1341:1346,1412:1417,1495:1500,1704:1709,4003:4008}.slack-logo-height{2530:2534,3399:3403}.very-small-padding{1304:1309}.title-dark-orange-color{1110:1117}.white-color{1215:1222}.small-padding{1593:1596,3907:3910}.people-image-size{2040:2044,2055:2059,2945:2949,3700:3704,3715:3719}.light-black-color{3933:3941}.main-title-font{1085:1100} */
