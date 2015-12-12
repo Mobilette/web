@@ -8,8 +8,14 @@
 
 	@black-color = #1F1F1F
 	@light-black-color = #8c8c8c
+	@very-light-black-color = #eeeeee
 	@white-color = #FCFCFC
 	@orange-color = #E6580D
+	@blue-color = #145187
+	@light-blue-color = #6A98CB
+	@brown-color = #963704
+	@light-green-color = #62CBAC
+	@green-color = #09986D
 	@light-orange-color = lighten(@orange-color, 100%)
 	@dark-orange-color = darken(@orange-color, 45%)
 	@title-dark-orange-color = darken(@orange-color, 30%)
@@ -56,6 +62,9 @@ header {
 	#slogan h1 {
 		padding-bottom: 0.4em;
 	}
+	#slogan a {
+		color: white;
+	}
 /*]*/
 
 #vision {
@@ -63,14 +72,102 @@ header {
 }
 
 /*#vision [*/
-	#vision p {
-		text-align: justify;
+	#vision ul {
+		list-style-position: inside;
+		margin-top: 0.4em;
 	}
 	#vision .quote {
 		margin: 3.5em 0;
 		text-align: center;
 	}
 /*]*/
+
+#startup-failure {
+	padding-top: 3.5em;
+}
+
+/*#startup-failure [*/
+	#startup-failure > .section-container {
+		overflow: hidden;
+		display: table;
+	}
+	#startup-failure #startup-failure-number {
+		padding: 0px;
+		display: block;
+	}
+	#startup-failure .section-container > div {
+		float: none;
+		display: table-cell;
+		vertical-align: middle;
+	}
+/*]*/
+
+/*#startup-failure-number [*/
+	#startup-failure-number .circular {
+		width: 100px;
+		height: 100px;
+		border-radius: 50px;
+		-webkit-border-radius: 50px;
+		-moz-border-radius: 50px;
+		background-color: #E6580D;
+	}
+/*]*/
+
+#why-startup-failure {
+	text-align: left;
+}
+
+/*#why-startup-failure [*/
+	#why-startup-failure > h2 {
+		padding-top: 0px;
+	}
+	#why-startup-failure ul {
+		list-style-position: inside;
+		margin-top: 0.4em;
+	}
+/*]*/
+
+#oussama-amar-quote {
+	background-color: #145187;
+	font-style: italic;
+	color: #6A98CB;
+	padding-top: 41.19230651855469px;
+}
+
+/*#oussama-amar-quote [*/
+	#oussama-amar-quote #oussama_amar {
+		margin-bottom: 2em;
+	}
+/*]*/
+
+#solution {
+	padding-top: 41.19230651855469px;
+}
+
+/*#solution [*/
+	#solution .section-container div.wrapper {
+		background-color: #eeeeee;
+		padding-bottom: 500em;
+	     	margin-bottom: -500em;
+	     	margin-right: -1px; /* Thank you IE */
+	}
+	#solution > div.section-container {
+		margin-bottom: 6em;
+	}
+/*]*/
+
+#solution .section-container div.wrapper p {
+	padding-bottom: 2em;
+}
+
+#solution > .section-container {
+    overflow: hidden;
+}
+
+#program {
+	background-color: #145187;
+	color: white;
+}
 
 #program .section-container {
 	margin-bottom: 3.5em;
@@ -85,6 +182,18 @@ header {
 #program .section-container p {
 	text-align: justify;
 }
+
+#medium {
+	background-color: #145187;
+	color: white;
+	padding-top: 41.19230651855469px;
+}
+
+/*#medium [*/
+	#medium iframe {
+		margin-bottom: 3.5em;
+	}
+/*]*/
 
 /*#quote [*/
 	#quote .section-container {
@@ -194,17 +303,19 @@ header {
 **
 */
 
+#testimonial {
+	background-color: #09986D;
+	color: white;
+}
+
 /*#testimonial [*/
 	#testimonial p, #testimonial q {
 		display: block;
 		margin-top: 1em;
 	}
 	#testimonial .name {
-		color: #8c8c8c;
+		color: #62CBAC;
 	}
-/*]*/
-
-/*#testimonial [*/
 	#testimonial .section-container {
 		margin-bottom: 3.5em;
 	}
@@ -213,4 +324,4 @@ header {
 	}
 /*]*/
 
-/* Variables:people-image-radius-size{3959:3965,3991:3997,4020:4026}.title-very-dark-orange-color{1156:1163}.slack-logo-width{2638:2643,3517:3522}.very-large-padding{1233:1236,1793:1796,4291:4294}.social-logo-size{2739:2743,2754:2758,2838:2842,2853:2857,3625:3629,3731:3735}.orange-color{1002:1009,1323:1330}.rocket-image-height{3837:3842}.medium-padding{1025:1028}.large-padding{1209:1214,1406:1411,1477:1482,1560:1565,1769:1774,4224:4229}.slack-logo-height{2654:2658,3523:3527}.rocket-image-width{3831:3836}.very-small-padding{1369:1374}.title-dark-orange-color{1109:1116}.white-color{1186:1193}.small-padding{1658:1661,4129:4132}.people-image-size{2164:2168,2179:2183,3069:3073,3922:3926,3937:3941}.light-black-color{4155:4162}.main-title-font{1084:1099} */
+/* Variables:very-light-black-color{2683:2690}.large-padding{1374:1379,1595:1600,1696:1701,1766:1771,3082:3087,3374:3379,3432:3437,5930:5935}.title-dark-orange-color{1274:1281}.orange-color{1167:1174,1488:1495,2196:2203}.light-green-color{5879:5886}.people-image-size{3827:3831,3842:3846,4732:4736,5585:5589,5600:5604}.rocket-image-height{5500:5505}.white-color{1351:1358}.very-small-padding{1534:1539,1666:1671,2361:2366}.rocket-image-width{5494:5499}.medium-padding{1190:1193,2556:2559,2913:2916}.small-padding{3180:3183,5853:5856}.title-very-dark-orange-color{1321:1328}.social-logo-size{4402:4406,4417:4421,4501:4505,4516:4520,5288:5292,5394:5398}.very-large-padding{1398:1401,2840:2843,3456:3459,5997:6000}.green-color{5771:5778}.light-blue-color{2453:2460}.slack-logo-height{4317:4321,5186:5190}.blue-color{2415:2422,3009:3016,3275:3282}.main-title-font{1249:1264}.slack-logo-width{4301:4306,5180:5185}.people-image-radius-size{5622:5628,5654:5660,5683:5689} */

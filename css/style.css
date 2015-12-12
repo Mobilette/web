@@ -73,7 +73,7 @@ h2 {
 
 section {
 	text-align: center;
-	padding-bottom: 5.5em;
+	padding-bottom: 41.19230651855469px;
 }
 section:after, .section-container:after, header:after {
 	content: " ";
@@ -191,4 +191,4 @@ button:active {
 	top:3px;
 }
 
-/* Variables:social-size{2154:2158,2170:2174,2284:2288,2299:2303}.title-font{1313:1335}.orange-color{2001:2008,2472:2479}.white-color{1243:1250,1864:1871}.dark-orange-color{2354:2361,2403:2410,2444:2451,2572:2579,2815:2822,2863:2870,2903:2910,2995:3002,3089:3096,3175:3182}.medium-padding{1813:1816,2234:2237}.black-color{1215:1222,1847:1854}.padding-section-bottom{1439:1444}.main-font{1180:1205}.main-title-font{1274:1289,2062:2077,2645:2660}.light-orange-color{2769:2776,2949:2956} */
+/* Variables:orange-color{2015:2022,2486:2493}.dark-orange-color{2368:2375,2417:2424,2458:2465,2586:2593,2829:2836,2877:2884,2917:2924,3009:3016,3103:3110,3189:3196}.white-color{1243:1250,1878:1885}.medium-padding{1827:1830,2248:2251}.light-orange-color{2783:2790,2963:2970}.title-font{1313:1335}.main-title-font{1274:1289,2076:2091,2659:2674}.social-size{2168:2172,2184:2188,2298:2302,2313:2317}.main-font{1180:1205}.black-color{1215:1222,1861:1868} */
