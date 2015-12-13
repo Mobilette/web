@@ -68,21 +68,6 @@ header {
 	}
 /*]*/
 
-#vision {
-	padding-top: 3.5em;
-}
-
-/*#vision [*/
-	#vision ul {
-		list-style-position: inside;
-		margin-top: 0.4em;
-	}
-	#vision .quote {
-		margin: 3.5em 0;
-		text-align: center;
-	}
-/*]*/
-
 #startup-failure {
 	background-color: #1F1F1F;
 	color: white;
@@ -90,32 +75,24 @@ header {
 }
 
 /*#startup-failure [*/
-	#startup-failure > .section-container {
-		overflow: hidden;
-		display: table;
-	}
 	#startup-failure #startup-failure-number {
 		padding: 0px;
 		display: block;
 		color: white;
+	}
+/*]*/
+
+/* @media screen and (min-width: 720px) */
+@media screen and (min-width: 45em) {
+	#startup-failure > .section-container {
+		display: table;
 	}
 	#startup-failure .section-container > div {
 		float: none;
 		display: table-cell;
 		vertical-align: middle;
 	}
-/*]*/
-
-/*#startup-failure-number [*/
-	#startup-failure-number .circular {
-		width: 100px;
-		height: 100px;
-		border-radius: 50px;
-		-webkit-border-radius: 50px;
-		-moz-border-radius: 50px;
-		background-color: #E6580D;
-	}
-/*]*/
+}
 
 #why-startup-failure {
 	text-align: left;
@@ -130,14 +107,6 @@ header {
 		margin-top: 0.4em;
 	}
 /*]*/
-
-hr {
-	margin: 0;
-	padding: 0 25.0%;
-	text-align: center;
-	color: white;
-	background-color: #1F1F1F;
-}
 
 #oussama-amar-quote {
 	background-color: #1F1F1F;
@@ -160,6 +129,9 @@ hr {
 }
 
 /*#solution [*/
+	#solution h3 {
+		padding-top: 0px;
+	}
 	#solution .section-container div.wrapper {
 		/*padding-bottom: 500em;*/
 	     	/*margin-bottom: -500em;*/
@@ -185,7 +157,7 @@ hr {
 #program {
 	background-color: #D50C37;
 	color: #F9C1CD;
-	padding-bottom: 3.5em;
+	padding-bottom: 2em;
 }
 
 /*#program [*/
@@ -198,7 +170,9 @@ hr {
 	#program h3 {
 		padding: 1em 0;
 	}
-
+	#program .wrapper {
+		padding-bottom: 2em;
+	}
 /*]*/
 
 #program h2, #program h3 {
@@ -212,7 +186,7 @@ hr {
 #medium {
 	background-color: #D50C37;
 	color: white;
-	padding-top: 3.5em;
+	padding-top: 2em;
 }
 
 /*#medium [*/
@@ -224,6 +198,9 @@ hr {
 	}
 	#medium a {
 		color: white;
+	}
+	#medium iframe {
+		margin: 0 auto;
 	}
 /*]*/
 
@@ -357,8 +334,8 @@ hr {
 		margin-bottom: 3.5em;
 	}
 	#testimonial > div.section-container:last-of-type {
-		margin-bottom: 6em;
+		margin-bottom: 3.5em;
 	}
 /*]*/
 
-/* Variables:large-padding{1407:1412,1628:1633,1729:1734,3297:3302,3357:3362,3625:3630,3711:3716,3856:3861,6354:6359}.title-dark-orange-color{1307:1314}.orange-color{1200:1207,1521:1528,2289:2296}.light-green-color{6303:6310}.people-image-size{4251:4255,4266:4270,5156:5160,6009:6013,6024:6028}.rocket-image-height{5924:5929}.white-color{1384:1391}.very-small-padding{1567:1572,1699:1704,2454:2459}.rocket-image-width{5918:5923}.medium-padding{1223:1226,1845:1848,2672:2675,2694:2697,2758:2761,2838:2841,3052:3055}.small-padding{3124:3127,3442:3445,6277:6280}.title-very-dark-orange-color{1354:1361}.light-black-color{2649:2656,3097:3104}.social-logo-size{4826:4830,4841:4845,4925:4929,4940:4944,5712:5716,5818:5822}.very-large-padding{1431:1434,3880:3883,6421:6424}.green-color{6195:6202}.light-blue-color{3271:3278}.slack-logo-height{4741:4745,5610:5614}.blue-color{3254:3261,3587:3594}.main-title-font{1282:1297}.slack-logo-width{4725:4730,5604:5609}.black-color{1804:1811,2558:2565,2611:2618,2800:2807}.higlight-black-color{3151:3158}.people-image-radius-size{6046:6052,6078:6084,6107:6113} */
+/* Variables:large-padding{1407:1412,3028:3033,3417:3422,3593:3598,6091:6096,6158:6163}.title-dark-orange-color{1307:1314}.orange-color{1200:1207,1521:1528}.light-green-color{6040:6047}.people-image-size{3988:3992,4003:4007,4893:4897,5746:5750,5761:5765}.rocket-image-height{5661:5666}.white-color{1384:1391}.very-small-padding{1567:1572,2201:2206}.rocket-image-width{5655:5660}.medium-padding{1223:1226,1683:1686,2316:2319,2338:2341,2402:2405,2482:2485,2725:2728,2970:2973,3153:3156,3333:3336}.small-padding{2797:2800,3113:3116,6014:6017}.title-very-dark-orange-color{1354:1361}.light-black-color{2293:2300,2770:2777}.social-logo-size{4563:4567,4578:4582,4662:4666,4677:4681,5449:5453,5555:5559}.very-large-padding{1431:1434,3617:3620}.green-color{5932:5939}.light-blue-color{2944:2951}.slack-logo-height{4478:4482,5347:5351}.blue-color{2927:2934,3295:3302}.main-title-font{1282:1297}.slack-logo-width{4462:4467,5341:5346}.black-color{1642:1649,2255:2262,2444:2451}.higlight-black-color{2824:2831}.people-image-radius-size{5783:5789,5815:5821,5844:5850} */
