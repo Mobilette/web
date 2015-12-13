@@ -9,7 +9,7 @@
 	@black-color = #1F1F1F
 	@white-color = #FCFCFC
 	@orange-color = #E6580D
-	@light-orange-color = rgba(230, 88, 13, 0.8);
+	@light-orange-color = rgba(230, 88, 13, 0.8)
 	@dark-orange-color = darken(@orange-color, 45%)
 	@main-font = AUdimat-Mobilette-Regular
 	@main-title-font = Input-Mobilette
@@ -175,10 +175,10 @@ button {
 	text-decoration:none;
 }
 button:hover {
-	background-color: rgba(230, 88, 13, 0.8);;
+	background-color: rgba(230, 88, 13, 0.8);
 }
 button:active {
-	background-color: rgba(230, 88, 13, 0.8);;
+	background-color: rgba(230, 88, 13, 0.8);
 	-moz-box-shadow: 
 		inset -1px 2px 10px 3px rgba(0, 0, 0, 0.3);
 	-webkit-box-shadow:
@@ -189,4 +189,4 @@ button:active {
 	top:3px;
 }
 
-/* Variables:orange-color{2234:2241}.white-color{1265:1272,2097:2104,2676:2683,2710:2717}.medium-padding{1690:1693,2046:2049,2467:2470}.very-large-padding{1458:1461,1480:1483}.light-orange-color{2890:2913,2952:2975}.title-font{1335:1357}.main-title-font{1296:1311,2295:2310}.social-size{2387:2391,2403:2407,2517:2521,2532:2536}.main-font{1202:1227,2783:2808}.black-color{1237:1244,2080:2087} */
+/* Variables:social-size{2386:2390,2402:2406,2516:2520,2531:2535}.light-orange-color{2889:2911,2950:2972}.orange-color{2233:2240}.medium-padding{1689:1692,2045:2048,2466:2469}.main-font{1201:1226,2782:2807}.main-title-font{1295:1310,2294:2309}.white-color{1264:1271,2096:2103,2675:2682,2709:2716}.black-color{1236:1243,2079:2086}.very-large-padding{1457:1460,1479:1482}.title-font{1334:1356} */

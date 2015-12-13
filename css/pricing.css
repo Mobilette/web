@@ -1,0 +1,261 @@
+/*
+**
+** Variables use in this css file.
+**
+** note You should use Sublime Text editor.
+** see https://packagecontrol.io/packages/CSS%20Less(ish)
+**
+
+	@black-color = #1F1F1F
+	@light-black-color = #8c8c8c
+	@higlight-black-color = #bdbdbd
+	@very-light-black-color = #eeeeee
+	@white-color = #FCFCFC
+	@light-white-color = rgba(255, 255, 255, 0.5)
+	@orange-color = #E6580D
+	@red-color = #D50C37
+	@light-red-color = #F9C1CD
+	@brown-color = #963704
+	@light-yellow-color = #FBE4C2
+	@yellow-color = #E6900D
+	@light-orange-color = lighten(@orange-color, 100%)
+	@dark-orange-color = darken(@orange-color, 45%)
+	@title-dark-orange-color = darken(@orange-color, 30%)
+	@title-very-dark-orange-color = darken(@orange-color, 65%)
+	@main-font = AUdimat-Mobilette-Regular
+	@main-title-font = Input-Mobilette
+	@title-font = AUdimat-Mobilette-Bold
+	@very-small-padding = 0.4em
+	@small-padding = 1em
+	@medium-padding = 2em
+	@large-padding = 3.5em
+	@very-large-padding = 6em
+	@padding-section-top = @large-padding + 2
+	@padding-section-bottom = @padding-section-top
+	@padding-first-section-top = @padding-section-top + 2
+	@margin-section-container-top = @medium-padding
+	@margin-section-container-bottom = @margin-section-container-top 
+*/
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.woff?v=4.5.0') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+	background-color: #E6580D;
+	padding-top: 2em;
+	padding-left: 5.5555%;
+}
+
+#mobilette {
+	font-family: Input-Mobilette;
+	color: #a13d09;
+}
+
+#mobilette::first-letter {
+	color: #501e04;
+}
+
+#slogan {
+	color: #FCFCFC;
+	padding-top: 3.5em;
+	padding-bottom: 6em;
+	background: url('../images/rocket.png') no-repeat center bottom;
+	background-color: #E6580D;
+}
+
+/*#slogan [*/
+	#slogan h1 {
+		padding-bottom: 0.4em;
+	}
+	#slogan a {
+		color: #FCFCFC;
+	}
+/*]*/
+
+#starter-plan {
+	background-color: #1F1F1F;
+	color: #FCFCFC;
+	padding-bottom: 6em;
+}
+
+#premium-plan {
+	background-color: #D50C37;
+	color: #FCFCFC;
+	padding-bottom: 6em;
+}
+
+/*#plan [*/
+	#plan h2 {
+		padding-top: 0px;
+	}
+	#plan button {
+		margin-top: 3.5em;
+	}
+	#plan ul > li {
+		margin-bottom: 1em;
+		text-align: left; 
+		list-style: none;
+		position: relative;
+	}
+	#plan ul.del {
+		display: none;
+	}
+	#plan #plan ul.del > li {
+		text-decoration: line-through;
+		color: rgba(255, 255, 255, 0.5);
+	}
+	#plan ul > li:before {
+		font-family: 'FontAwesome';
+		content: "\f00c";
+		color: #FCFCFC;
+		font-size: 20px;
+		position: absolute;
+		left: -30px;
+		top: 0;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	#plan #plan ul.del > li:before {
+		color: rgba(255, 255, 255, 0.5);
+	}
+	#plan > section {
+		padding-left: 15.55555%;
+		padding-right: 15.55555%;
+	}
+/*]*/
+
+/* @media screen and (min-width: 720px) */
+@media screen and (min-width: 45em) {
+	#plan ul.del {
+		visibility: hidden;
+		display: block;
+	}
+	#plan > section {
+		padding-left: 5.55555%;
+		padding-right: 5.55555%;
+	}
+}
+
+#chat {
+	background-color: #E6900D;
+	color: #FCFCFC;
+}
+
+/*#chat [*/
+	#chat button {
+		margin-top: 3.5em;
+	}
+	#chat #slack-chat-message {
+		margin: 0 auto;
+	}
+/*]*/
+
+/*
+**
+** Define image url for the people in the index page.
+**
+	@people-image-size = 70px
+	@people-image-radius-size = @people-image-size / 2
+	@slack-logo-width = 140px
+	@slack-logo-height = 65px
+	@social-logo-size = 30px
+	@rocket-image-width = 319px
+	@rocket-image-height = 412px
+*/
+
+#oussama_amar, #stephane_udol, #ricky_ngadam, #paul_louis_bautes {
+	width: 70px;
+	height: 70px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#oussama_amar {
+	background-image: url('../images/oussama-amar.jpg');
+}
+#stephane_udol {
+	background-image: url('../images/stephane-udol.jpg');
+}
+#ricky_ngadam {
+	background-image: url('../images/ricky-ngadam.jpg');
+}
+#paul_louis_bautes {
+	background-image: url('../images/paul-louis-bautes.jpg');
+}
+#mouhamed_i {
+	background-image: url('../images/mouhamed-i.jpg');
+}
+#slack_logo {
+	width: 140px;
+	height: 65px;
+	background-image: url('../images/slack_black.png');
+}
+#twitter_logo {
+	width: 30px;
+	height: 30px;
+	background-image: url('../images/twitter-icon.png');
+}
+#slack_icon {
+	width: 30px;
+	height: 30px;
+	background-image: url('../images/slack-icon.png');
+}
+#slack-chat-message {
+	width: 644px;
+	height: 176px;
+	background-image: url('../images/slack-chat-message.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+	#oussama_amar, #stephane_udol, #ricky_ngadam, #paul_louis_bautes, #mouhamed_i {
+		background-size: 70px auto;
+	}
+	 #oussama_amar {
+		background-image: url('../images/oussama-amar@2x.jpg');
+	}
+	#stephane_udol {
+		background-image: url('../images/stephane-udol@2x.jpg');
+	}
+	#ricky_ngadam {
+		background-image: url('../images/ricky-ngadam@2x.jpg') ;
+	}
+	#paul_louis_bautes {
+		background-image: url('../images/paul-louis-bautes@2x.jpg');
+	}
+	#mouhamed_i {
+		background-image: url('../images/mouhamed-i@2x.jpg');
+	}
+	#slack_logo {
+		background-size: 140px 65px;
+		background-image: url('../images/slack_black@2x.png');
+	}
+	#twitter_logo {
+		background-size: 30px auto;
+		background-image: url('../images/twitter-icon@2x.png');
+	}
+	#slack_icon {
+		background-size: 30px auto;
+		background-image: url('../images/slack-icon@2x.png');
+	}
+	#slogan {
+		background-size: 319px 412px;
+		background-image: url('../images/rocket@2x.png');
+	}
+	#slack-chat-message {
+		background-size: 644px 176px;
+		background-image: url('../images/slack-chat-message@2x.png');
+	}
+}
+
+.circular {
+	width: 70px;
+	height: 70px;
+	border-radius: 35.0px;
+	-webkit-border-radius: 35.0px;
+	-moz-border-radius: 35.0px;
+}
+
+/* Variables:orange-color{1407:1414,1728:1735}.slack-logo-width{3834:3839,4828:4833}.main-title-font{1489:1504}.people-image-size{3360:3364,3375:3379,4380:4384,5355:5359,5370:5374}.black-color{1848:1855}.very-large-padding{1638:1641,1891:1894,1977:1980}.light-white-color{2242:2266,2534:2558}.large-padding{1614:1619,2046:2051,2943:2948}.title-dark-orange-color{1514:1521}.rocket-image-height{5148:5153}.medium-padding{1430:1433}.red-color{1934:1941}.rocket-image-width{5142:5147}.people-image-radius-size{5392:5398,5424:5430,5453:5459}.social-logo-size{3935:3939,3950:3954,4034:4038,4049:4053,4936:4940,5042:5046}.white-color{1591:1598,1798:1805,1865:1872,1951:1958,2348:2355,2899:2906}.small-padding{2084:2087}.title-very-dark-orange-color{1561:1568}.yellow-color{2882:2889}.slack-logo-height{3850:3854,4834:4838}.very-small-padding{1774:1779} */

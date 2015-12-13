@@ -217,7 +217,7 @@ section .grid_4:last-child {
   float: left;
   padding-right: 14px;
   padding-left: 14px;
-  -webkit-box-sizing : border-box;‌​
+  -webkit-box-sizing : border-box;
   -moz-box-sizing : border-box;
   box-sizing : border-box;
 }
