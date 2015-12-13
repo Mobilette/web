@@ -277,13 +277,12 @@ section .grid_4:last-child {
 
     font-size: 100%;
     line-height: 1.0625;
-  }
-  .large, h3 {
-    /* 16px / 24px */
 
-    font-size: 1em;
-    line-height: 1.5em;
-    /* 24 */
+  }
+  .medium_large, .large, h3 {
+    /* 19px / 26px */
+    font-size: 1.188em;
+    line-height: 1.3684210526em;
 
   }
   .huge, h2 {
